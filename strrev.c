@@ -1,5 +1,6 @@
 void strrev(char str1[]){
-    int i,j,temp;
+    int i,j;
+    char temp;
     j = strlen(str1)- 1;
     while(i=0;i<j;i++;j--){
         temp=str1[i];
